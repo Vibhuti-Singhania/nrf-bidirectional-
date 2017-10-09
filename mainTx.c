@@ -78,8 +78,8 @@ int main(void)
     NVIC_Initialize();
     Enable_USART1();
     LEDinit();
-   // enabletimer2();
-    //enabletimer4();
+    enabletimer2();
+    enabletimer4();
     nRF_Init();
     datainit();
 
